@@ -1,6 +1,6 @@
 {
   "name": "@1xtr/moleculer-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "moleculer template",
   "main": "moleculer.config.js",
   "scripts": {

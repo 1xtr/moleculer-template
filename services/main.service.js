@@ -1,12 +1,13 @@
 // const dbMixin = require('../mixins/db.mixin')
 // const gatewayMixin = require('../mixins/gateway.mixin')
+const settingsMixin = require('../mixins/settings.mixin')
 
 /**
  * @type {import('moleculer').ServiceSchema}
  */
 module.exports = {
   name: 'template',
-  mixins: [
+  mixins: [ settingsMixin
     /* dbMixin, gatewayMixin */
   ],
   actions: {
